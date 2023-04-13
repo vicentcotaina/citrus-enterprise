@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
-import Product from './components/pages/Product';
-import Contact from './components/pages/Contact';
-import SignUp from './components/pages/SignUp';
-import AboutUs from './components/pages/AboutUs';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import Products from './pages/Products';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -17,9 +16,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about-us" component={AboutUs} />
-          <Route path="/product" exact component={Product} />
+          <Route path="/product" exact component={Products} />
           <Route path="/contact" exact component={Contact} />
-          <Route path="/sign-up" exact component={SignUp} />
         </Switch>
         <Footer />
       </Router>
