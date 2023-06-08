@@ -26,11 +26,10 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .face1 {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .text {
@@ -43,6 +42,7 @@
 .face2 {
   border-radius: 15px;
   transition: 0.5s;
+  align-items: center;
 }
 h2 {
   margin: 0;
@@ -56,7 +56,50 @@ h2 {
 }
 
 .card:hover .face.face2 {
-  height: 60px;
+  height: 80px;
+}
+
+.card:nth-child(1) .face.face2 {
+  background-image: url('/images/img-31.jpg');
+}
+.card:nth-child(2) .face.face2 {
+  background-image: url('/images/img-11.jpg');
+}
+.card:nth-child(3) .face.face2 {
+  background-image: url('/images/img-32.jpg');
+}
+.card:nth-child(4) .face.face2 {
+  background-image: url('/images/img-11.jpg');
+}
+.card:nth-child(5) .face.face2 {
+  background-image: url('/images/img-30.jpg');
+}
+.card:nth-child(6) .face.face2 {
+  background-image: url('/images/img-29.jpg');
+}
+.card:nth-child(7) .face.face2 {
+  background-image: url('/images/img-28.jpg');
+}
+.card:nth-child(8) .face.face2 {
+  background-image: url('/images/img-20.jpg');
+}
+.card:nth-child(9) .face.face2 {
+  background-image: url('/images/img-21.jpg');
+}
+.card:nth-child(10) .face.face2 {
+  background-image: url('/images/img-22.jpg');
+}
+.card:nth-child(11) .face.face2 {
+  background-image: url('/images/img-23.jpg');
+}
+.card:nth-child(12) .face.face2 {
+  background-image: url('/images/img-24.jpg');
+}
+.card:nth-child(13) .face.face2 {
+  background-image: url('/images/img-25.jpg');
+}
+.card:nth-child(14) .face.face2 {
+  background-image: url('/images/img-26.jpg');
 }
 .card:nth-child(15) .face.face2 {
   background-image: url('/images/img-16.jpg');
@@ -74,4 +117,13 @@ h2 {
 
 .card:nth-child(19) .face.face2 {
   background-image: url('/images/img-14.jpg');
+}
+.card:nth-child(20) .face.face2 {
+  background-image: url('/images/img-17.jpg');
+}
+.card:nth-child(21) .face.face2 {
+  background-image: url('/images/img-18.jpg');
+}
+.card:nth-child(22) .face.face2 {
+  background-image: url('/images/img-19.jpg');
 }

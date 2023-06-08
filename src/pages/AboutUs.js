@@ -11,6 +11,7 @@ export default function AboutUs() {
         lightBg={true}
         description="Euroalmonds es una empresa con una amplia trayectoria de más de 30 años en el mercado de España y Portugal. Nos especializamos en la producción y comercialización de cítricos, incluyendo naranjas, mandarinas, limones y aguacates. Nos enorgullecemos de nuestra vasta experiencia en el sector, lo que nos ha permitido establecernos como líderes en la industria."
         img="images/img-2.png"
+        alt="Logo"
       />
       <Section
         lightBg={false}
@@ -34,6 +35,7 @@ export default function AboutUs() {
         }
         img="images/img-4.png"
         imgStart={true}
+        alt="Persona cultivando"
       />
       <Section
         lightBg={true}
@@ -52,6 +54,7 @@ export default function AboutUs() {
           </p>
         }
         img="images/img-3.png"
+        alt="Persona con corazones"
       />
     </>
   );

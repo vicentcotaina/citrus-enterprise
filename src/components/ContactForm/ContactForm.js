@@ -21,6 +21,7 @@ const ContactForm = () => {
 
   const form = useRef();
 
+  /* Este código define una función llamada sendEmail que se utiliza para enviar un correo electrónico utilizando la biblioteca emailjs. La función se activa cuando se envía un formulario de correo electrónico, evitando que el evento predeterminado del formulario se dispare. Se utiliza el método sendForm() de emailjs para enviar el formulario. Se le pasan cuatro argumentos a sendForm(): el ID del servicio de correo electrónico que se utilizará para enviar el formulario, el ID de la plantilla de correo electrónico que se utilizará, el formulario que se está enviando, y la clave pública utilizada para la autenticación. Si el correo electrónico se envía con éxito, se registrará un mensaje en la consola, el formulario se restablecerá a su estado original y se actualizará el estado de formSubmitted a true. Si hay un error al enviar el correo electrónico, se registrará un mensaje de error en la consola. Además, se define un estado de componente formSubmitted utilizando el método useState(false), que se actualiza a true cuando el correo electrónico se envía con éxito. Este estado se puede utilizar para proporcionar retroalimentación al usuario después de que se haya enviado el correo electrónico, como mostrar un mensaje de confirmación o redirigir a una página de agradecimiento. */
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
@@ -48,7 +49,7 @@ const ContactForm = () => {
       <div className="contact-form-container">
         <div className="contact-image">
           <Tilt options={defaultOptions}>
-            <img src="images/img-1.png" alt="Contact" />
+            <img src="images/img-1.png" alt="Sobre" />
           </Tilt>
         </div>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>

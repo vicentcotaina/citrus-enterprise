@@ -6,7 +6,7 @@ import ProductCards from '../components/ProductCard/ProductCards';
 export default function Products() {
   return (
     <>
-      <HeroSection title="Productos" mediaPath="videos/video-5.mp4" />
+      <HeroSection title="Productos" mediaPath="videos/video-6.mp4" />
       <ProductCards />
     </>
   );
